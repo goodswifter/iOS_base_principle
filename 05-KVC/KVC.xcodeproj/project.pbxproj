@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12759B872497103C00064F8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759B862497103C00064F8A /* main.m */; };
+		12759B8F2497106300064F8A /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759B8B2497106300064F8A /* MJPerson.m */; };
+		12759B902497106300064F8A /* MJObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759B8E2497106300064F8A /* MJObserver.m */; };
+		12759B982497139300064F8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759B972497139300064F8A /* main.m */; };
+		12759B9E249713AF00064F8A /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759B9D249713AF00064F8A /* MJPerson.m */; };
+		12759BA62497192E00064F8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759BA52497192E00064F8A /* main.m */; };
+		12759BAC2497193B00064F8A /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759BAB2497193B00064F8A /* MJPerson.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		12759B822497103C00064F8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		12759B932497139300064F8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		12759BA12497192E00064F8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		12759B842497103C00064F8A /* 01-KVC和KVO */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-KVC和KVO"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12759B862497103C00064F8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12759B8B2497106300064F8A /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
+		12759B8C2497106300064F8A /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		12759B8D2497106300064F8A /* MJObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJObserver.h; sourceTree = "<group>"; };
+		12759B8E2497106300064F8A /* MJObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJObserver.m; sourceTree = "<group>"; };
+		12759B952497139300064F8A /* 02-KVC设置值原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-KVC设置值原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12759B972497139300064F8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12759B9C249713AF00064F8A /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPerson.h; path = "01-KVC和KVO/MJPerson.h"; sourceTree = SOURCE_ROOT; };
+		12759B9D249713AF00064F8A /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPerson.m; path = "01-KVC和KVO/MJPerson.m"; sourceTree = SOURCE_ROOT; };
+		12759BA32497192E00064F8A /* 03-KVC获取值原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-KVC获取值原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12759BA52497192E00064F8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12759BAA2497193B00064F8A /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MJPerson.h; path = "01-KVC和KVO/MJPerson.h"; sourceTree = SOURCE_ROOT; };
+		12759BAB2497193B00064F8A /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MJPerson.m; path = "01-KVC和KVO/MJPerson.m"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12759B812497103C00064F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12759B922497139300064F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12759BA02497192E00064F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12759B5B24970F5400064F8A = {
+			isa = PBXGroup;
+			children = (
+				12759B852497103C00064F8A /* 01-KVC和KVO */,
+				12759B962497139300064F8A /* 02-KVC设置值原理 */,
+				12759BA42497192E00064F8A /* 03-KVC获取值原理 */,
+				12759B6524970F5400064F8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12759B6524970F5400064F8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12759B842497103C00064F8A /* 01-KVC和KVO */,
+				12759B952497139300064F8A /* 02-KVC设置值原理 */,
+				12759BA32497192E00064F8A /* 03-KVC获取值原理 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12759B852497103C00064F8A /* 01-KVC和KVO */ = {
+			isa = PBXGroup;
+			children = (
+				12759B862497103C00064F8A /* main.m */,
+				12759B8C2497106300064F8A /* MJPerson.h */,
+				12759B8B2497106300064F8A /* MJPerson.m */,
+				12759B8D2497106300064F8A /* MJObserver.h */,
+				12759B8E2497106300064F8A /* MJObserver.m */,
+			);
+			path = "01-KVC和KVO";
+			sourceTree = "<group>";
+		};
+		12759B962497139300064F8A /* 02-KVC设置值原理 */ = {
+			isa = PBXGroup;
+			children = (
+				12759B972497139300064F8A /* main.m */,
+				12759B9C249713AF00064F8A /* MJPerson.h */,
+				12759B9D249713AF00064F8A /* MJPerson.m */,
+			);
+			path = "02-KVC设置值原理";
+			sourceTree = "<group>";
+		};
+		12759BA42497192E00064F8A /* 03-KVC获取值原理 */ = {
+			isa = PBXGroup;
+			children = (
+				12759BA52497192E00064F8A /* main.m */,
+				12759BAA2497193B00064F8A /* MJPerson.h */,
+				12759BAB2497193B00064F8A /* MJPerson.m */,
+			);
+			path = "03-KVC获取值原理";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12759B832497103C00064F8A /* 01-KVC和KVO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12759B8A2497103C00064F8A /* Build configuration list for PBXNativeTarget "01-KVC和KVO" */;
+			buildPhases = (
+				12759B802497103C00064F8A /* Sources */,
+				12759B812497103C00064F8A /* Frameworks */,
+				12759B822497103C00064F8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-KVC和KVO";
+			productName = "01-KVC和KVO";
+			productReference = 12759B842497103C00064F8A /* 01-KVC和KVO */;
+			productType = "com.apple.product-type.tool";
+		};
+		12759B942497139300064F8A /* 02-KVC设置值原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12759B992497139300064F8A /* Build configuration list for PBXNativeTarget "02-KVC设置值原理" */;
+			buildPhases = (
+				12759B912497139300064F8A /* Sources */,
+				12759B922497139300064F8A /* Frameworks */,
+				12759B932497139300064F8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-KVC设置值原理";
+			productName = "02-KVC设置值原理";
+			productReference = 12759B952497139300064F8A /* 02-KVC设置值原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		12759BA22497192E00064F8A /* 03-KVC获取值原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12759BA72497192E00064F8A /* Build configuration list for PBXNativeTarget "03-KVC获取值原理" */;
+			buildPhases = (
+				12759B9F2497192E00064F8A /* Sources */,
+				12759BA02497192E00064F8A /* Frameworks */,
+				12759BA12497192E00064F8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-KVC获取值原理";
+			productName = "03-KVC获取值原理";
+			productReference = 12759BA32497192E00064F8A /* 03-KVC获取值原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12759B5C24970F5400064F8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = jingshonline;
+				TargetAttributes = {
+					12759B832497103C00064F8A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					12759B942497139300064F8A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					12759BA22497192E00064F8A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 12759B5F24970F5400064F8A /* Build configuration list for PBXProject "KVC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12759B5B24970F5400064F8A;
+			productRefGroup = 12759B6524970F5400064F8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12759B832497103C00064F8A /* 01-KVC和KVO */,
+				12759B942497139300064F8A /* 02-KVC设置值原理 */,
+				12759BA22497192E00064F8A /* 03-KVC获取值原理 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12759B802497103C00064F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12759B872497103C00064F8A /* main.m in Sources */,
+				12759B902497106300064F8A /* MJObserver.m in Sources */,
+				12759B8F2497106300064F8A /* MJPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12759B912497139300064F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12759B982497139300064F8A /* main.m in Sources */,
+				12759B9E249713AF00064F8A /* MJPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12759B9F2497192E00064F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12759BA62497192E00064F8A /* main.m in Sources */,
+				12759BAC2497193B00064F8A /* MJPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		12759B7B24970F5500064F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12759B7C24970F5500064F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12759B882497103C00064F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12759B892497103C00064F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12759B9A2497139300064F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12759B9B2497139300064F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12759BA82497192E00064F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12759BA92497192E00064F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12759B5F24970F5400064F8A /* Build configuration list for PBXProject "KVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12759B7B24970F5500064F8A /* Debug */,
+				12759B7C24970F5500064F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12759B8A2497103C00064F8A /* Build configuration list for PBXNativeTarget "01-KVC和KVO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12759B882497103C00064F8A /* Debug */,
+				12759B892497103C00064F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12759B992497139300064F8A /* Build configuration list for PBXNativeTarget "02-KVC设置值原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12759B9A2497139300064F8A /* Debug */,
+				12759B9B2497139300064F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12759BA72497192E00064F8A /* Build configuration list for PBXNativeTarget "03-KVC获取值原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12759BA82497192E00064F8A /* Debug */,
+				12759BA92497192E00064F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12759B5C24970F5400064F8A /* Project object */;
+}

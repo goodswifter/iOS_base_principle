@@ -10,24 +10,28 @@
 
 @implementation NSKVONotifying_MJPerson
 
-- (void)setAge:(int)age
-{
+void _NSSetIntValueAndNotify() {
+    [self willChangeValueForKey:@"age"];
+    
+    // 原来的setter实现
+    
+    [self didChangeValueForKey:@"age"];
+}
+
+- (void)setAge:(int)age {
     _NSSetIntValueAndNotify();
 }
 
-// 屏幕内部实现，隐藏了NSKVONotifying_MJPerson类的存在
-- (Class)class
-{
+// 屏蔽内部实现，隐藏了NSKVONotifying_MJPerson类的存在
+- (Class)class {
     return [MJPerson class];
 }
 
-- (void)dealloc
-{
+- (void)dealloc {
     // 收尾工作
 }
 
-- (BOOL)_isKVOA
-{
+- (BOOL)_isKVOA {
     return YES;
 }
 
