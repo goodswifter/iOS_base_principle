@@ -11,10 +11,47 @@
 		12759BE32497693E00064F8A /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759BDE2497693E00064F8A /* MJPerson.m */; };
 		12759BE42497693E00064F8A /* MJPerson+Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759BE02497693E00064F8A /* MJPerson+Test.m */; };
 		12759BE52497693E00064F8A /* MJPerson+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = 12759BE12497693E00064F8A /* MJPerson+Eat.m */; };
+		8ACB0A992497999900702A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0A982497999900702A89 /* main.m */; };
+		8ACB0AAD249799A900702A89 /* MJStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AA0249799A800702A89 /* MJStudent+Test1.m */; };
+		8ACB0AAE249799A900702A89 /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AA2249799A800702A89 /* MJPerson.m */; };
+		8ACB0AAF249799A900702A89 /* MJPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AA3249799A800702A89 /* MJPerson+Test1.m */; };
+		8ACB0AB0249799A900702A89 /* MJCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AA6249799A800702A89 /* MJCat.m */; };
+		8ACB0AB1249799A900702A89 /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AA8249799A800702A89 /* MJStudent.m */; };
+		8ACB0AB2249799A900702A89 /* MJStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AA9249799A800702A89 /* MJStudent+Test2.m */; };
+		8ACB0AB3249799A900702A89 /* MJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AAA249799A900702A89 /* MJDog.m */; };
+		8ACB0AB4249799A900702A89 /* MJPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AAB249799A900702A89 /* MJPerson+Test2.m */; };
+		8ACB0ABC24979B9B00702A89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0ABB24979B9B00702A89 /* main.m */; };
+		8ACB0AD224979BC000702A89 /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AC024979BBF00702A89 /* MJStudent.m */; };
+		8ACB0AD324979BC000702A89 /* MJTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AC224979BBF00702A89 /* MJTeacher.m */; };
+		8ACB0AD424979BC000702A89 /* MJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AC324979BBF00702A89 /* MJDog.m */; };
+		8ACB0AD524979BC000702A89 /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AC424979BBF00702A89 /* MJPerson.m */; };
+		8ACB0AD624979BC000702A89 /* MJPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AC524979BBF00702A89 /* MJPerson+Test2.m */; };
+		8ACB0AD724979BC000702A89 /* MJStudent+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AC624979BBF00702A89 /* MJStudent+Test1.m */; };
+		8ACB0AD824979BC000702A89 /* MJPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0AC724979BBF00702A89 /* MJPerson+Test1.m */; };
+		8ACB0AD924979BC000702A89 /* MJStudent+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0ACE24979BC000702A89 /* MJStudent+Test2.m */; };
+		8ACB0ADA24979BC000702A89 /* MJCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB0ACF24979BC000702A89 /* MJCat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		12759BD42497691000064F8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8ACB0A942497999900702A89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8ACB0AB724979B9B00702A89 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,10 +71,62 @@
 		12759BE02497693E00064F8A /* MJPerson+Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJPerson+Test.m"; sourceTree = "<group>"; };
 		12759BE12497693E00064F8A /* MJPerson+Eat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJPerson+Eat.m"; sourceTree = "<group>"; };
 		12759BE22497693E00064F8A /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		8ACB0A962497999900702A89 /* 02-load方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-load方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACB0A982497999900702A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ACB0A9D249799A800702A89 /* MJPerson+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJPerson+Test2.h"; sourceTree = "<group>"; };
+		8ACB0A9E249799A800702A89 /* MJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
+		8ACB0A9F249799A800702A89 /* MJCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCat.h; sourceTree = "<group>"; };
+		8ACB0AA0249799A800702A89 /* MJStudent+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJStudent+Test1.m"; sourceTree = "<group>"; };
+		8ACB0AA1249799A800702A89 /* MJStudent+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJStudent+Test2.h"; sourceTree = "<group>"; };
+		8ACB0AA2249799A800702A89 /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
+		8ACB0AA3249799A800702A89 /* MJPerson+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJPerson+Test1.m"; sourceTree = "<group>"; };
+		8ACB0AA4249799A800702A89 /* MJStudent+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJStudent+Test1.h"; sourceTree = "<group>"; };
+		8ACB0AA5249799A800702A89 /* MJPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJPerson+Test1.h"; sourceTree = "<group>"; };
+		8ACB0AA6249799A800702A89 /* MJCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCat.m; sourceTree = "<group>"; };
+		8ACB0AA7249799A800702A89 /* MJDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDog.h; sourceTree = "<group>"; };
+		8ACB0AA8249799A800702A89 /* MJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJStudent.m; sourceTree = "<group>"; };
+		8ACB0AA9249799A800702A89 /* MJStudent+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJStudent+Test2.m"; sourceTree = "<group>"; };
+		8ACB0AAA249799A900702A89 /* MJDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDog.m; sourceTree = "<group>"; };
+		8ACB0AAB249799A900702A89 /* MJPerson+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJPerson+Test2.m"; sourceTree = "<group>"; };
+		8ACB0AAC249799A900702A89 /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		8ACB0AB924979B9B00702A89 /* 03-initialize方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03-initialize方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ACB0ABB24979B9B00702A89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ACB0AC024979BBF00702A89 /* MJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJStudent.m; sourceTree = "<group>"; };
+		8ACB0AC124979BBF00702A89 /* MJTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTeacher.h; sourceTree = "<group>"; };
+		8ACB0AC224979BBF00702A89 /* MJTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTeacher.m; sourceTree = "<group>"; };
+		8ACB0AC324979BBF00702A89 /* MJDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDog.m; sourceTree = "<group>"; };
+		8ACB0AC424979BBF00702A89 /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
+		8ACB0AC524979BBF00702A89 /* MJPerson+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJPerson+Test2.m"; sourceTree = "<group>"; };
+		8ACB0AC624979BBF00702A89 /* MJStudent+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJStudent+Test1.m"; sourceTree = "<group>"; };
+		8ACB0AC724979BBF00702A89 /* MJPerson+Test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJPerson+Test1.m"; sourceTree = "<group>"; };
+		8ACB0AC824979BBF00702A89 /* MJPerson+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJPerson+Test1.h"; sourceTree = "<group>"; };
+		8ACB0AC924979BBF00702A89 /* MJStudent+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJStudent+Test2.h"; sourceTree = "<group>"; };
+		8ACB0ACA24979BBF00702A89 /* MJCat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJCat.h; sourceTree = "<group>"; };
+		8ACB0ACB24979BBF00702A89 /* MJStudent+Test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJStudent+Test1.h"; sourceTree = "<group>"; };
+		8ACB0ACC24979BC000702A89 /* MJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
+		8ACB0ACD24979BC000702A89 /* MJDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDog.h; sourceTree = "<group>"; };
+		8ACB0ACE24979BC000702A89 /* MJStudent+Test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MJStudent+Test2.m"; sourceTree = "<group>"; };
+		8ACB0ACF24979BC000702A89 /* MJCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJCat.m; sourceTree = "<group>"; };
+		8ACB0AD024979BC000702A89 /* MJPerson+Test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MJPerson+Test2.h"; sourceTree = "<group>"; };
+		8ACB0AD124979BC000702A89 /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		12759BD32497691000064F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACB0A932497999900702A89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACB0AB624979B9B00702A89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				12759BD72497691000064F8A /* 01-Category本质 */,
+				8ACB0A972497999900702A89 /* 02-load方法 */,
+				8ACB0ABA24979B9B00702A89 /* 03-initialize方法 */,
 				12759BB7249768E500064F8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				12759BD62497691000064F8A /* 01-Category本质 */,
+				8ACB0A962497999900702A89 /* 02-load方法 */,
+				8ACB0AB924979B9B00702A89 /* 03-initialize方法 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +168,56 @@
 				12759BE12497693E00064F8A /* MJPerson+Eat.m */,
 			);
 			path = "01-Category本质";
+			sourceTree = "<group>";
+		};
+		8ACB0A972497999900702A89 /* 02-load方法 */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB0A982497999900702A89 /* main.m */,
+				8ACB0AAC249799A900702A89 /* MJPerson.h */,
+				8ACB0AA2249799A800702A89 /* MJPerson.m */,
+				8ACB0AA5249799A800702A89 /* MJPerson+Test1.h */,
+				8ACB0AA3249799A800702A89 /* MJPerson+Test1.m */,
+				8ACB0A9D249799A800702A89 /* MJPerson+Test2.h */,
+				8ACB0AAB249799A900702A89 /* MJPerson+Test2.m */,
+				8ACB0A9E249799A800702A89 /* MJStudent.h */,
+				8ACB0AA8249799A800702A89 /* MJStudent.m */,
+				8ACB0AA4249799A800702A89 /* MJStudent+Test1.h */,
+				8ACB0AA0249799A800702A89 /* MJStudent+Test1.m */,
+				8ACB0AA1249799A800702A89 /* MJStudent+Test2.h */,
+				8ACB0AA9249799A800702A89 /* MJStudent+Test2.m */,
+				8ACB0A9F249799A800702A89 /* MJCat.h */,
+				8ACB0AA6249799A800702A89 /* MJCat.m */,
+				8ACB0AA7249799A800702A89 /* MJDog.h */,
+				8ACB0AAA249799A900702A89 /* MJDog.m */,
+			);
+			path = "02-load方法";
+			sourceTree = "<group>";
+		};
+		8ACB0ABA24979B9B00702A89 /* 03-initialize方法 */ = {
+			isa = PBXGroup;
+			children = (
+				8ACB0ABB24979B9B00702A89 /* main.m */,
+				8ACB0AD124979BC000702A89 /* MJPerson.h */,
+				8ACB0AC424979BBF00702A89 /* MJPerson.m */,
+				8ACB0AC824979BBF00702A89 /* MJPerson+Test1.h */,
+				8ACB0AC724979BBF00702A89 /* MJPerson+Test1.m */,
+				8ACB0AD024979BC000702A89 /* MJPerson+Test2.h */,
+				8ACB0AC524979BBF00702A89 /* MJPerson+Test2.m */,
+				8ACB0ACC24979BC000702A89 /* MJStudent.h */,
+				8ACB0AC024979BBF00702A89 /* MJStudent.m */,
+				8ACB0ACB24979BBF00702A89 /* MJStudent+Test1.h */,
+				8ACB0AC624979BBF00702A89 /* MJStudent+Test1.m */,
+				8ACB0AC924979BBF00702A89 /* MJStudent+Test2.h */,
+				8ACB0ACE24979BC000702A89 /* MJStudent+Test2.m */,
+				8ACB0AC124979BBF00702A89 /* MJTeacher.h */,
+				8ACB0AC224979BBF00702A89 /* MJTeacher.m */,
+				8ACB0ACA24979BBF00702A89 /* MJCat.h */,
+				8ACB0ACF24979BC000702A89 /* MJCat.m */,
+				8ACB0ACD24979BC000702A89 /* MJDog.h */,
+				8ACB0AC324979BBF00702A89 /* MJDog.m */,
+			);
+			path = "03-initialize方法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +240,40 @@
 			productReference = 12759BD62497691000064F8A /* 01-Category本质 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8ACB0A952497999900702A89 /* 02-load方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ACB0A9C2497999900702A89 /* Build configuration list for PBXNativeTarget "02-load方法" */;
+			buildPhases = (
+				8ACB0A922497999900702A89 /* Sources */,
+				8ACB0A932497999900702A89 /* Frameworks */,
+				8ACB0A942497999900702A89 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-load方法";
+			productName = "02-load方法";
+			productReference = 8ACB0A962497999900702A89 /* 02-load方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		8ACB0AB824979B9B00702A89 /* 03-initialize方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ACB0ABD24979B9B00702A89 /* Build configuration list for PBXNativeTarget "03-initialize方法" */;
+			buildPhases = (
+				8ACB0AB524979B9B00702A89 /* Sources */,
+				8ACB0AB624979B9B00702A89 /* Frameworks */,
+				8ACB0AB724979B9B00702A89 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "03-initialize方法";
+			productName = "03-initialize方法";
+			productReference = 8ACB0AB924979B9B00702A89 /* 03-initialize方法 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -107,6 +284,12 @@
 				ORGANIZATIONNAME = jingshonline;
 				TargetAttributes = {
 					12759BD52497691000064F8A = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8ACB0A952497999900702A89 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8ACB0AB824979B9B00702A89 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
@@ -125,6 +308,8 @@
 			projectRoot = "";
 			targets = (
 				12759BD52497691000064F8A /* 01-Category本质 */,
+				8ACB0A952497999900702A89 /* 02-load方法 */,
+				8ACB0AB824979B9B00702A89 /* 03-initialize方法 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +323,39 @@
 				12759BD92497691000064F8A /* main.m in Sources */,
 				12759BE32497693E00064F8A /* MJPerson.m in Sources */,
 				12759BE42497693E00064F8A /* MJPerson+Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACB0A922497999900702A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACB0AB3249799A900702A89 /* MJDog.m in Sources */,
+				8ACB0AB2249799A900702A89 /* MJStudent+Test2.m in Sources */,
+				8ACB0AB1249799A900702A89 /* MJStudent.m in Sources */,
+				8ACB0AAE249799A900702A89 /* MJPerson.m in Sources */,
+				8ACB0AB0249799A900702A89 /* MJCat.m in Sources */,
+				8ACB0AAF249799A900702A89 /* MJPerson+Test1.m in Sources */,
+				8ACB0AB4249799A900702A89 /* MJPerson+Test2.m in Sources */,
+				8ACB0AAD249799A900702A89 /* MJStudent+Test1.m in Sources */,
+				8ACB0A992497999900702A89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ACB0AB524979B9B00702A89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACB0AD624979BC000702A89 /* MJPerson+Test2.m in Sources */,
+				8ACB0ADA24979BC000702A89 /* MJCat.m in Sources */,
+				8ACB0AD724979BC000702A89 /* MJStudent+Test1.m in Sources */,
+				8ACB0AD324979BC000702A89 /* MJTeacher.m in Sources */,
+				8ACB0AD224979BC000702A89 /* MJStudent.m in Sources */,
+				8ACB0ABC24979B9B00702A89 /* main.m in Sources */,
+				8ACB0AD824979BC000702A89 /* MJPerson+Test1.m in Sources */,
+				8ACB0AD524979BC000702A89 /* MJPerson.m in Sources */,
+				8ACB0AD424979BC000702A89 /* MJDog.m in Sources */,
+				8ACB0AD924979BC000702A89 /* MJStudent+Test2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +496,54 @@
 			};
 			name = Release;
 		};
+		8ACB0A9A2497999900702A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8ACB0A9B2497999900702A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8ACB0ABE24979B9B00702A89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8ACB0ABF24979B9B00702A89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -295,6 +561,24 @@
 			buildConfigurations = (
 				12759BDA2497691000064F8A /* Debug */,
 				12759BDB2497691000064F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACB0A9C2497999900702A89 /* Build configuration list for PBXNativeTarget "02-load方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACB0A9A2497999900702A89 /* Debug */,
+				8ACB0A9B2497999900702A89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ACB0ABD24979B9B00702A89 /* Build configuration list for PBXNativeTarget "03-initialize方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ACB0ABE24979B9B00702A89 /* Debug */,
+				8ACB0ABF24979B9B00702A89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
