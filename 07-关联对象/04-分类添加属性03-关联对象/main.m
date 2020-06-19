@@ -10,12 +10,15 @@
 #import "MJPerson.h"
 #import "MJPerson+Test.h"
 
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         MJPerson *person = [[MJPerson alloc] init];
         person.age = 10;
-        person.weight = 40;
+        person.weight = 20;
         person.name = @"tom";
+        
+//        [person removeAssociatedObjects];
 
         MJPerson *person2 = [[MJPerson alloc] init];
         person2.age = 20;

@@ -13,4 +13,7 @@
 @property (copy, nonatomic) NSString *name;
 @property (assign, nonatomic) int weight;
 
+/// 移除当前对象所有的关联对象
+- (void)removeAssociatedObjects;
+
 @end
