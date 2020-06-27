@@ -10,7 +10,6 @@
 
 typedef void (^MJBlock)(void);
 
-// 1
 MJBlock myblock() {
     int age1 = 10;
     return ^{
@@ -21,17 +20,15 @@ MJBlock myblock() {
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // 1. block作为函数返回值时
-//        MJBlock block1 = myblock();
-//        NSLog(@"%@", [block1 class]);
-//        myblock();
+        MJBlock block1 = myblock();
+        myblock();
         
         // 2. 将block赋值给__strong指针时
-//        int age2 = 10;
-//        MJBlock block2 = ^{
-//            NSLog(@"age2 = %d", age2);
-//        };
-//        block2();
-//        NSLog(@"%@", [block2 class]);
+        int age2 = 10;
+        MJBlock block2 = ^{
+            NSLog(@"age2 = %d", age2);
+        };
+        block2();
         
         // 3. block作为Cocoa API中方法名含有usingBlock的方法参数时
         NSArray *arr;

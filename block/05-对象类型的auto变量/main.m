@@ -13,15 +13,20 @@ typedef void (^MJBlock)(void);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        
         MJBlock block;
         {
             MJPerson *person = [[MJPerson alloc] init];
             person.age = 10;
+            
+            ^{
+               NSLog(@"---------%d", person.age);
+            }();
 
-            __weak MJPerson *weakPerson = person;
-            block = ^{
-                NSLog(@"---------%d", weakPerson.age);
-            };
+//            __weak MJPerson *weakPerson = person;
+//            block = ^{
+//                NSLog(@"---------%d", weakPerson.age);
+//            };
         }
 
         NSLog(@"------");

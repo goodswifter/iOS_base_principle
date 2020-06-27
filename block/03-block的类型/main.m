@@ -32,7 +32,7 @@ int main(int argc, const char * argv[]) {
             NSLog(@"Hello - %d", b);
         };
 
-        // 2. 堆block: 访问了auto变量或者栈block调用一次copy操作就会变成堆block
+        // 2. 堆block: 栈block调用一次copy操作就会变成堆block
         // 堆：动态分配内存, 需要程序员自己申请, 也需要程序员自己管理内存
         int age = 10;
         void (^block2)(void) = ^{
