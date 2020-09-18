@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		125A3FAD24EB609100DE2F9E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FAC24EB609100DE2F9E /* main.mm */; };
+		125A3FB824EB60B100DE2F9E /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FB224EB60B100DE2F9E /* MJPerson.m */; };
+		125A3FB924EB60B100DE2F9E /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FB424EB60B100DE2F9E /* MJStudent.m */; };
+		125A3FBA24EB60B100DE2F9E /* MJGoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FB724EB60B100DE2F9E /* MJGoodStudent.m */; };
 		129CA39024CE5DD1005CBEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 129CA38F24CE5DD1005CBEEA /* main.m */; };
 		129CA39624CE5DEF005CBEEA /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 129CA39424CE5DEF005CBEEA /* MJPerson.m */; };
 		129CA39E24CE5E97005CBEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 129CA39D24CE5E97005CBEEA /* main.m */; };
@@ -23,6 +27,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		125A3FA824EB609000DE2F9E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		129CA38B24CE5DD1005CBEEA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +66,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		125A3FAA24EB609000DE2F9E /* 05-Cache */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-Cache"; sourceTree = BUILT_PRODUCTS_DIR; };
+		125A3FAC24EB609100DE2F9E /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		125A3FB124EB60B100DE2F9E /* MJClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
+		125A3FB224EB60B100DE2F9E /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
+		125A3FB324EB60B100DE2F9E /* MJGoodStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGoodStudent.h; sourceTree = "<group>"; };
+		125A3FB424EB60B100DE2F9E /* MJStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJStudent.m; sourceTree = "<group>"; };
+		125A3FB524EB60B100DE2F9E /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		125A3FB624EB60B100DE2F9E /* MJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
+		125A3FB724EB60B100DE2F9E /* MJGoodStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGoodStudent.m; sourceTree = "<group>"; };
 		129CA38D24CE5DD1005CBEEA /* 01-isa的取值赋值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-isa的取值赋值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		129CA38F24CE5DD1005CBEEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		129CA39424CE5DEF005CBEEA /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
@@ -80,6 +102,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		125A3FA724EB609000DE2F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		129CA38A24CE5DD1005CBEEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,6 +140,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		125A3FAB24EB609100DE2F9E /* 05-Cache */ = {
+			isa = PBXGroup;
+			children = (
+				125A3FAC24EB609100DE2F9E /* main.mm */,
+				125A3FB124EB60B100DE2F9E /* MJClassInfo.h */,
+				125A3FB324EB60B100DE2F9E /* MJGoodStudent.h */,
+				125A3FB724EB60B100DE2F9E /* MJGoodStudent.m */,
+				125A3FB524EB60B100DE2F9E /* MJPerson.h */,
+				125A3FB224EB60B100DE2F9E /* MJPerson.m */,
+				125A3FB624EB60B100DE2F9E /* MJStudent.h */,
+				125A3FB424EB60B100DE2F9E /* MJStudent.m */,
+			);
+			path = "05-Cache";
+			sourceTree = "<group>";
+		};
 		129CA37624CE5D27005CBEEA = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +162,7 @@
 				129CA39C24CE5E97005CBEEA /* 02-位域 */,
 				129CA3AA24CE6116005CBEEA /* 03-共用体union */,
 				129CA3C324CE6823005CBEEA /* 04-位运算 */,
+				125A3FAB24EB609100DE2F9E /* 05-Cache */,
 				129CA38024CE5D27005CBEEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,6 +174,7 @@
 				129CA39B24CE5E97005CBEEA /* 02-位域 */,
 				129CA3A924CE6116005CBEEA /* 03-共用体union */,
 				129CA3C224CE6823005CBEEA /* 04-位运算.app */,
+				125A3FAA24EB609000DE2F9E /* 05-Cache */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +230,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		125A3FA924EB609000DE2F9E /* 05-Cache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125A3FB024EB609100DE2F9E /* Build configuration list for PBXNativeTarget "05-Cache" */;
+			buildPhases = (
+				125A3FA624EB609000DE2F9E /* Sources */,
+				125A3FA724EB609000DE2F9E /* Frameworks */,
+				125A3FA824EB609000DE2F9E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-Cache";
+			productName = "05-Cache";
+			productReference = 125A3FAA24EB609000DE2F9E /* 05-Cache */;
+			productType = "com.apple.product-type.tool";
+		};
 		129CA38C24CE5DD1005CBEEA /* 01-isa的取值赋值 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 129CA39124CE5DD1005CBEEA /* Build configuration list for PBXNativeTarget "01-isa的取值赋值" */;
@@ -261,6 +324,9 @@
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = jingshonline;
 				TargetAttributes = {
+					125A3FA924EB609000DE2F9E = {
+						CreatedOnToolsVersion = 11.6;
+					};
 					129CA38C24CE5DD1005CBEEA = {
 						CreatedOnToolsVersion = 11.6;
 					};
@@ -292,6 +358,7 @@
 				129CA39A24CE5E97005CBEEA /* 02-位域 */,
 				129CA3A824CE6116005CBEEA /* 03-共用体union */,
 				129CA3C124CE6823005CBEEA /* 04-位运算 */,
+				125A3FA924EB609000DE2F9E /* 05-Cache */,
 			);
 		};
 /* End PBXProject section */
@@ -310,6 +377,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		125A3FA624EB609000DE2F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125A3FB924EB60B100DE2F9E /* MJStudent.m in Sources */,
+				125A3FBA24EB60B100DE2F9E /* MJGoodStudent.m in Sources */,
+				125A3FAD24EB609100DE2F9E /* main.mm in Sources */,
+				125A3FB824EB60B100DE2F9E /* MJPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		129CA38924CE5DD1005CBEEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,6 +448,26 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		125A3FAE24EB609100DE2F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		125A3FAF24EB609100DE2F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		129CA38424CE5D27005CBEEA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -581,6 +679,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		125A3FB024EB609100DE2F9E /* Build configuration list for PBXNativeTarget "05-Cache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125A3FAE24EB609100DE2F9E /* Debug */,
+				125A3FAF24EB609100DE2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		129CA37A24CE5D27005CBEEA /* Build configuration list for PBXProject "runtime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
