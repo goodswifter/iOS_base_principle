@@ -11,6 +11,8 @@
 		125A3FB824EB60B100DE2F9E /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FB224EB60B100DE2F9E /* MJPerson.m */; };
 		125A3FB924EB60B100DE2F9E /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FB424EB60B100DE2F9E /* MJStudent.m */; };
 		125A3FBA24EB60B100DE2F9E /* MJGoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FB724EB60B100DE2F9E /* MJGoodStudent.m */; };
+		126D04F7251D7D33008F2B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 126D04F6251D7D33008F2B4B /* main.m */; };
+		126D0503251D7D55008F2B4B /* ADPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 126D0502251D7D55008F2B4B /* ADPerson.m */; };
 		129CA39024CE5DD1005CBEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 129CA38F24CE5DD1005CBEEA /* main.m */; };
 		129CA39624CE5DEF005CBEEA /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 129CA39424CE5DEF005CBEEA /* MJPerson.m */; };
 		129CA39E24CE5E97005CBEEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 129CA39D24CE5E97005CBEEA /* main.m */; };
@@ -28,6 +30,15 @@
 
 /* Begin PBXCopyFilesBuildPhase section */
 		125A3FA824EB609000DE2F9E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		126D04F2251D7D33008F2B4B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -75,6 +86,10 @@
 		125A3FB524EB60B100DE2F9E /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
 		125A3FB624EB60B100DE2F9E /* MJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
 		125A3FB724EB60B100DE2F9E /* MJGoodStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGoodStudent.m; sourceTree = "<group>"; };
+		126D04F4251D7D33008F2B4B /* 06-动态方法解析 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06-动态方法解析"; sourceTree = BUILT_PRODUCTS_DIR; };
+		126D04F6251D7D33008F2B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		126D0501251D7D55008F2B4B /* ADPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADPerson.h; sourceTree = "<group>"; };
+		126D0502251D7D55008F2B4B /* ADPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADPerson.m; sourceTree = "<group>"; };
 		129CA38D24CE5DD1005CBEEA /* 01-isa的取值赋值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-isa的取值赋值"; sourceTree = BUILT_PRODUCTS_DIR; };
 		129CA38F24CE5DD1005CBEEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		129CA39424CE5DEF005CBEEA /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
@@ -103,6 +118,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		125A3FA724EB609000DE2F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126D04F1251D7D33008F2B4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -155,6 +177,16 @@
 			path = "05-Cache";
 			sourceTree = "<group>";
 		};
+		126D04F5251D7D33008F2B4B /* 06-动态方法解析 */ = {
+			isa = PBXGroup;
+			children = (
+				126D04F6251D7D33008F2B4B /* main.m */,
+				126D0501251D7D55008F2B4B /* ADPerson.h */,
+				126D0502251D7D55008F2B4B /* ADPerson.m */,
+			);
+			path = "06-动态方法解析";
+			sourceTree = "<group>";
+		};
 		129CA37624CE5D27005CBEEA = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +195,7 @@
 				129CA3AA24CE6116005CBEEA /* 03-共用体union */,
 				129CA3C324CE6823005CBEEA /* 04-位运算 */,
 				125A3FAB24EB609100DE2F9E /* 05-Cache */,
+				126D04F5251D7D33008F2B4B /* 06-动态方法解析 */,
 				129CA38024CE5D27005CBEEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -175,6 +208,7 @@
 				129CA3A924CE6116005CBEEA /* 03-共用体union */,
 				129CA3C224CE6823005CBEEA /* 04-位运算.app */,
 				125A3FAA24EB609000DE2F9E /* 05-Cache */,
+				126D04F4251D7D33008F2B4B /* 06-动态方法解析 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -245,6 +279,23 @@
 			name = "05-Cache";
 			productName = "05-Cache";
 			productReference = 125A3FAA24EB609000DE2F9E /* 05-Cache */;
+			productType = "com.apple.product-type.tool";
+		};
+		126D04F3251D7D33008F2B4B /* 06-动态方法解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126D04FA251D7D33008F2B4B /* Build configuration list for PBXNativeTarget "06-动态方法解析" */;
+			buildPhases = (
+				126D04F0251D7D33008F2B4B /* Sources */,
+				126D04F1251D7D33008F2B4B /* Frameworks */,
+				126D04F2251D7D33008F2B4B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "06-动态方法解析";
+			productName = "06-动态方法解析";
+			productReference = 126D04F4251D7D33008F2B4B /* 06-动态方法解析 */;
 			productType = "com.apple.product-type.tool";
 		};
 		129CA38C24CE5DD1005CBEEA /* 01-isa的取值赋值 */ = {
@@ -327,6 +378,9 @@
 					125A3FA924EB609000DE2F9E = {
 						CreatedOnToolsVersion = 11.6;
 					};
+					126D04F3251D7D33008F2B4B = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					129CA38C24CE5DD1005CBEEA = {
 						CreatedOnToolsVersion = 11.6;
 					};
@@ -359,6 +413,7 @@
 				129CA3A824CE6116005CBEEA /* 03-共用体union */,
 				129CA3C124CE6823005CBEEA /* 04-位运算 */,
 				125A3FA924EB609000DE2F9E /* 05-Cache */,
+				126D04F3251D7D33008F2B4B /* 06-动态方法解析 */,
 			);
 		};
 /* End PBXProject section */
@@ -385,6 +440,15 @@
 				125A3FBA24EB60B100DE2F9E /* MJGoodStudent.m in Sources */,
 				125A3FAD24EB609100DE2F9E /* main.mm in Sources */,
 				125A3FB824EB60B100DE2F9E /* MJPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		126D04F0251D7D33008F2B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126D04F7251D7D33008F2B4B /* main.m in Sources */,
+				126D0503251D7D55008F2B4B /* ADPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +525,28 @@
 		125A3FAF24EB609100DE2F9E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		126D04F8251D7D33008F2B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		126D04F9251D7D33008F2B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25ZE6TVB9T;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -684,6 +770,15 @@
 			buildConfigurations = (
 				125A3FAE24EB609100DE2F9E /* Debug */,
 				125A3FAF24EB609100DE2F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126D04FA251D7D33008F2B4B /* Build configuration list for PBXNativeTarget "06-动态方法解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126D04F8251D7D33008F2B4B /* Debug */,
+				126D04F9251D7D33008F2B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
