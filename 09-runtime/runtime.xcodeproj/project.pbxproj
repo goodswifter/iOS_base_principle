@@ -15,6 +15,8 @@
 		124419372521E432006ABDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 124419362521E432006ABDB1 /* main.m */; };
 		124419482521E62E006ABDB1 /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 124419442521E62E006ABDB1 /* MJStudent.m */; };
 		124419492521E62E006ABDB1 /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 124419452521E62E006ABDB1 /* MJPerson.m */; };
+		1244195B2521EFA3006ABDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1244195A2521EFA3006ABDB1 /* main.m */; };
+		124419782521F023006ABDB1 /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 124419762521F023006ABDB1 /* MJPerson.m */; };
 		125A3FAD24EB609100DE2F9E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FAC24EB609100DE2F9E /* main.mm */; };
 		125A3FB824EB60B100DE2F9E /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FB224EB60B100DE2F9E /* MJPerson.m */; };
 		125A3FB924EB60B100DE2F9E /* MJStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 125A3FB424EB60B100DE2F9E /* MJStudent.m */; };
@@ -56,6 +58,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		124419322521E432006ABDB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		124419562521EFA3006ABDB1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -128,6 +139,10 @@
 		124419452521E62E006ABDB1 /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
 		124419462521E62E006ABDB1 /* MJStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJStudent.h; sourceTree = "<group>"; };
 		124419472521E62E006ABDB1 /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		124419582521EFA3006ABDB1 /* 10-消息转发实战 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "10-消息转发实战"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1244195A2521EFA3006ABDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		124419762521F023006ABDB1 /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
+		124419772521F023006ABDB1 /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
 		125A3FAA24EB609000DE2F9E /* 05-Cache */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-Cache"; sourceTree = BUILT_PRODUCTS_DIR; };
 		125A3FAC24EB609100DE2F9E /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		125A3FB124EB60B100DE2F9E /* MJClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJClassInfo.h; sourceTree = "<group>"; };
@@ -183,6 +198,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		124419312521E432006ABDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124419552521EFA3006ABDB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,6 +290,16 @@
 			path = "09-super";
 			sourceTree = "<group>";
 		};
+		124419592521EFA3006ABDB1 /* 10-消息转发实战 */ = {
+			isa = PBXGroup;
+			children = (
+				1244195A2521EFA3006ABDB1 /* main.m */,
+				124419772521F023006ABDB1 /* MJPerson.h */,
+				124419762521F023006ABDB1 /* MJPerson.m */,
+			);
+			path = "10-消息转发实战";
+			sourceTree = "<group>";
+		};
 		125A3FAB24EB609100DE2F9E /* 05-Cache */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +337,7 @@
 				124418E225217415006ABDB1 /* 07-消息转发 */,
 				1244190F2521DDB1006ABDB1 /* 08-@dynamic */,
 				124419352521E432006ABDB1 /* 09-super */,
+				124419592521EFA3006ABDB1 /* 10-消息转发实战 */,
 				129CA38024CE5D27005CBEEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -321,6 +354,7 @@
 				124418E125217415006ABDB1 /* 07-消息转发 */,
 				1244190E2521DDB1006ABDB1 /* 08-@dynamic */,
 				124419342521E432006ABDB1 /* 09-super */,
+				124419582521EFA3006ABDB1 /* 10-消息转发实战 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -425,6 +459,23 @@
 			name = "09-super";
 			productName = "09-super";
 			productReference = 124419342521E432006ABDB1 /* 09-super */;
+			productType = "com.apple.product-type.tool";
+		};
+		124419572521EFA3006ABDB1 /* 10-消息转发实战 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1244195E2521EFA3006ABDB1 /* Build configuration list for PBXNativeTarget "10-消息转发实战" */;
+			buildPhases = (
+				124419542521EFA3006ABDB1 /* Sources */,
+				124419552521EFA3006ABDB1 /* Frameworks */,
+				124419562521EFA3006ABDB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "10-消息转发实战";
+			productName = "10-消息转发实战";
+			productReference = 124419582521EFA3006ABDB1 /* 10-消息转发实战 */;
 			productType = "com.apple.product-type.tool";
 		};
 		125A3FA924EB609000DE2F9E /* 05-Cache */ = {
@@ -547,6 +598,9 @@
 					124419332521E432006ABDB1 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
+					124419572521EFA3006ABDB1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					125A3FA924EB609000DE2F9E = {
 						CreatedOnToolsVersion = 11.6;
 					};
@@ -589,6 +643,7 @@
 				124418E025217415006ABDB1 /* 07-消息转发 */,
 				1244190D2521DDB1006ABDB1 /* 08-@dynamic */,
 				124419332521E432006ABDB1 /* 09-super */,
+				124419572521EFA3006ABDB1 /* 10-消息转发实战 */,
 			);
 		};
 /* End PBXProject section */
@@ -633,6 +688,15 @@
 				124419492521E62E006ABDB1 /* MJPerson.m in Sources */,
 				124419482521E62E006ABDB1 /* MJStudent.m in Sources */,
 				124419372521E432006ABDB1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124419542521EFA3006ABDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124419782521F023006ABDB1 /* MJPerson.m in Sources */,
+				1244195B2521EFA3006ABDB1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,6 +836,28 @@
 			name = Debug;
 		};
 		1244193A2521E432006ABDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1244195C2521EFA3006ABDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1244195D2521EFA3006ABDB1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
@@ -1058,6 +1144,15 @@
 			buildConfigurations = (
 				124419392521E432006ABDB1 /* Debug */,
 				1244193A2521E432006ABDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1244195E2521EFA3006ABDB1 /* Build configuration list for PBXNativeTarget "10-消息转发实战" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1244195C2521EFA3006ABDB1 /* Debug */,
+				1244195D2521EFA3006ABDB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
