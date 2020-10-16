@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "129CA3A824CE6116005CBEEA"
-               BuildableName = "03-&#x5171;&#x7528;&#x4f53;union"
-               BlueprintName = "03-&#x5171;&#x7528;&#x4f53;union"
+               BlueprintIdentifier = "124419332521E432006ABDB1"
+               BuildableName = "09-super"
+               BlueprintName = "09-super"
                ReferencedContainer = "container:runtime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "129CA3A824CE6116005CBEEA"
-            BuildableName = "03-&#x5171;&#x7528;&#x4f53;union"
-            BlueprintName = "03-&#x5171;&#x7528;&#x4f53;union"
+            BlueprintIdentifier = "124419332521E432006ABDB1"
+            BuildableName = "09-super"
+            BlueprintName = "09-super"
             ReferencedContainer = "container:runtime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "129CA3A824CE6116005CBEEA"
-            BuildableName = "03-&#x5171;&#x7528;&#x4f53;union"
-            BlueprintName = "03-&#x5171;&#x7528;&#x4f53;union"
+            BlueprintIdentifier = "124419332521E432006ABDB1"
+            BuildableName = "09-super"
+            BlueprintName = "09-super"
             ReferencedContainer = "container:runtime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
