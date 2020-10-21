@@ -12,10 +12,14 @@
 @implementation NSMutableArray (Swizzing)
 
 + (void)load {
-    // -[__NSArrayM insertObject:atIndex:]: object cannot be nil
-    Method method1 = class_getInstanceMethod(NSClassFromString(@"__NSArrayM"), @selector(insertObject:atIndex:));
-    Method method2 = class_getInstanceMethod(self, @selector(ad_insertObject:atIndex:));
-    method_exchangeImplementations(method1, method2);
+    // 防止外面调用 [NSMutableArray load]方法, 起不到交换的作用了
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        // -[__NSArrayM insertObject:atIndex:]: object cannot be nil
+        Method method1 = class_getInstanceMethod(NSClassFromString(@"__NSArrayM"), @selector(insertObject:atIndex:));
+        Method method2 = class_getInstanceMethod(self, @selector(ad_insertObject:atIndex:));
+        method_exchangeImplementations(method1, method2);
+    });
 }
 
 - (void)ad_insertObject:(id)anObject atIndex:(NSUInteger)index {
