@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120C3D9E253FC5B100CC22CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120C3D9C253FC5B100CC22CD /* Main.storyboard */; };
+		120C3DA0253FC5B200CC22CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120C3D9F253FC5B200CC22CD /* Assets.xcassets */; };
+		120C3DA3253FC5B200CC22CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120C3DA1253FC5B200CC22CD /* LaunchScreen.storyboard */; };
+		120C3DA6253FC5B200CC22CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3DA5253FC5B200CC22CD /* main.m */; };
+		120C3DE8253FC5E100CC22CD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3DE2253FC5E000CC22CD /* SceneDelegate.m */; };
+		120C3DE9253FC5E100CC22CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3DE4253FC5E000CC22CD /* AppDelegate.m */; };
+		120C3DEA253FC5E100CC22CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3DE7253FC5E100CC22CD /* ViewController.m */; };
+		120C3E3225400CB500CC22CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3E3125400CB500CC22CD /* main.m */; };
+		120C3E4525400CD200CC22CD /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3E4425400CD200CC22CD /* MJPerson.m */; };
+		120C3E5525400CD700CC22CD /* NSObject+Json.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3E5425400CD700CC22CD /* NSObject+Json.m */; };
+		120C3E6D25400E9B00CC22CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3E6C25400E9B00CC22CD /* AppDelegate.m */; };
+		120C3E7025400E9B00CC22CD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3E6F25400E9B00CC22CD /* SceneDelegate.m */; };
+		120C3E7325400E9B00CC22CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3E7225400E9B00CC22CD /* ViewController.m */; };
+		120C3E7625400E9B00CC22CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120C3E7425400E9B00CC22CD /* Main.storyboard */; };
+		120C3E7825400E9C00CC22CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 120C3E7725400E9C00CC22CD /* Assets.xcassets */; };
+		120C3E7B25400E9C00CC22CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 120C3E7925400E9C00CC22CD /* LaunchScreen.storyboard */; };
+		120C3E7E25400E9C00CC22CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3E7D25400E9C00CC22CD /* main.m */; };
+		120C3E9225400F6000CC22CD /* UIControl+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3E9125400F6000CC22CD /* UIControl+Extension.m */; };
+		120C3EA32540120600CC22CD /* NSMutableArray+Swizzing.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3EA22540120600CC22CD /* NSMutableArray+Swizzing.m */; };
+		120C3EB42540133E00CC22CD /* NSMutableDictionary+Swizzing.m in Sources */ = {isa = PBXBuildFile; fileRef = 120C3EB32540133E00CC22CD /* NSMutableDictionary+Swizzing.m */; };
 		124418E425217415006ABDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 124418E325217415006ABDB1 /* main.m */; };
 		124418F22521745D006ABDB1 /* ADPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 124418F12521745D006ABDB1 /* ADPerson.m */; };
 		124418FC25217465006ABDB1 /* ADCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 124418FB25217465006ABDB1 /* ADCat.m */; };
@@ -41,6 +61,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		120C3E2D25400CB500CC22CD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		124418DF25217415006ABDB1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,6 +163,42 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		120C3D91253FC5B100CC22CD /* 12-Runtime应用01-查看私有成员变量.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "12-Runtime应用01-查看私有成员变量.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120C3D9D253FC5B100CC22CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		120C3D9F253FC5B200CC22CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		120C3DA2253FC5B200CC22CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		120C3DA4253FC5B200CC22CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120C3DA5253FC5B200CC22CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		120C3DE2253FC5E000CC22CD /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		120C3DE3253FC5E000CC22CD /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		120C3DE4253FC5E000CC22CD /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		120C3DE5253FC5E000CC22CD /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		120C3DE6253FC5E000CC22CD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		120C3DE7253FC5E100CC22CD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		120C3E2F25400CB500CC22CD /* 13-Runtime应用02-字典转模型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13-Runtime应用02-字典转模型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120C3E3125400CB500CC22CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		120C3E4325400CD200CC22CD /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		120C3E4425400CD200CC22CD /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
+		120C3E5325400CD700CC22CD /* NSObject+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Json.h"; sourceTree = "<group>"; };
+		120C3E5425400CD700CC22CD /* NSObject+Json.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Json.m"; sourceTree = "<group>"; };
+		120C3E6925400E9B00CC22CD /* 14-Runtime应用03-方法交换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "14-Runtime应用03-方法交换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120C3E6B25400E9B00CC22CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		120C3E6C25400E9B00CC22CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		120C3E6E25400E9B00CC22CD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		120C3E6F25400E9B00CC22CD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		120C3E7125400E9B00CC22CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		120C3E7225400E9B00CC22CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		120C3E7525400E9B00CC22CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		120C3E7725400E9C00CC22CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		120C3E7A25400E9C00CC22CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		120C3E7C25400E9C00CC22CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		120C3E7D25400E9C00CC22CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		120C3E9025400F6000CC22CD /* UIControl+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Extension.h"; sourceTree = "<group>"; };
+		120C3E9125400F6000CC22CD /* UIControl+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Extension.m"; sourceTree = "<group>"; };
+		120C3EA12540120600CC22CD /* NSMutableArray+Swizzing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Swizzing.h"; sourceTree = "<group>"; };
+		120C3EA22540120600CC22CD /* NSMutableArray+Swizzing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Swizzing.m"; sourceTree = "<group>"; };
+		120C3EB22540133E00CC22CD /* NSMutableDictionary+Swizzing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Swizzing.h"; sourceTree = "<group>"; };
+		120C3EB32540133E00CC22CD /* NSMutableDictionary+Swizzing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Swizzing.m"; sourceTree = "<group>"; };
 		124418E125217415006ABDB1 /* 07-消息转发 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07-消息转发"; sourceTree = BUILT_PRODUCTS_DIR; };
 		124418E325217415006ABDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		124418F02521745D006ABDB1 /* ADPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADPerson.h; sourceTree = "<group>"; };
@@ -198,6 +263,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		120C3D8E253FC5B100CC22CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C3E2C25400CB500CC22CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C3E6625400E9B00CC22CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		124418DE25217415006ABDB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +364,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		120C3D92253FC5B100CC22CD /* 12-Runtime应用01-查看私有成员变量 */ = {
+			isa = PBXGroup;
+			children = (
+				120C3DE3253FC5E000CC22CD /* AppDelegate.h */,
+				120C3DE4253FC5E000CC22CD /* AppDelegate.m */,
+				120C3DE5253FC5E000CC22CD /* SceneDelegate.h */,
+				120C3DE2253FC5E000CC22CD /* SceneDelegate.m */,
+				120C3DE6253FC5E000CC22CD /* ViewController.h */,
+				120C3DE7253FC5E100CC22CD /* ViewController.m */,
+				120C3D9C253FC5B100CC22CD /* Main.storyboard */,
+				120C3D9F253FC5B200CC22CD /* Assets.xcassets */,
+				120C3DA1253FC5B200CC22CD /* LaunchScreen.storyboard */,
+				120C3DA4253FC5B200CC22CD /* Info.plist */,
+				120C3DA5253FC5B200CC22CD /* main.m */,
+			);
+			path = "12-Runtime应用01-查看私有成员变量";
+			sourceTree = "<group>";
+		};
+		120C3E3025400CB500CC22CD /* 13-Runtime应用02-字典转模型 */ = {
+			isa = PBXGroup;
+			children = (
+				120C3E3125400CB500CC22CD /* main.m */,
+				120C3E4325400CD200CC22CD /* MJPerson.h */,
+				120C3E4425400CD200CC22CD /* MJPerson.m */,
+				120C3E5325400CD700CC22CD /* NSObject+Json.h */,
+				120C3E5425400CD700CC22CD /* NSObject+Json.m */,
+			);
+			path = "13-Runtime应用02-字典转模型";
+			sourceTree = "<group>";
+		};
+		120C3E6A25400E9B00CC22CD /* 14-Runtime应用03-方法交换 */ = {
+			isa = PBXGroup;
+			children = (
+				120C3E6B25400E9B00CC22CD /* AppDelegate.h */,
+				120C3E6C25400E9B00CC22CD /* AppDelegate.m */,
+				120C3E6E25400E9B00CC22CD /* SceneDelegate.h */,
+				120C3E6F25400E9B00CC22CD /* SceneDelegate.m */,
+				120C3E7125400E9B00CC22CD /* ViewController.h */,
+				120C3E7225400E9B00CC22CD /* ViewController.m */,
+				120C3E7425400E9B00CC22CD /* Main.storyboard */,
+				120C3E7725400E9C00CC22CD /* Assets.xcassets */,
+				120C3E7925400E9C00CC22CD /* LaunchScreen.storyboard */,
+				120C3E7C25400E9C00CC22CD /* Info.plist */,
+				120C3E7D25400E9C00CC22CD /* main.m */,
+				120C3E9025400F6000CC22CD /* UIControl+Extension.h */,
+				120C3E9125400F6000CC22CD /* UIControl+Extension.m */,
+				120C3EA12540120600CC22CD /* NSMutableArray+Swizzing.h */,
+				120C3EA22540120600CC22CD /* NSMutableArray+Swizzing.m */,
+				120C3EB22540133E00CC22CD /* NSMutableDictionary+Swizzing.h */,
+				120C3EB32540133E00CC22CD /* NSMutableDictionary+Swizzing.m */,
+			);
+			path = "14-Runtime应用03-方法交换";
+			sourceTree = "<group>";
+		};
 		124418E225217415006ABDB1 /* 07-消息转发 */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +511,9 @@
 				124419352521E432006ABDB1 /* 09-super */,
 				124419592521EFA3006ABDB1 /* 10-消息转发实战 */,
 				12799C312538016200F6716A /* 11-isKindOfClass和isMemberOfClass */,
+				120C3D92253FC5B100CC22CD /* 12-Runtime应用01-查看私有成员变量 */,
+				120C3E3025400CB500CC22CD /* 13-Runtime应用02-字典转模型 */,
+				120C3E6A25400E9B00CC22CD /* 14-Runtime应用03-方法交换 */,
 				129CA38024CE5D27005CBEEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -389,6 +532,9 @@
 				124419342521E432006ABDB1 /* 09-super */,
 				124419582521EFA3006ABDB1 /* 10-消息转发实战 */,
 				12799C302538016200F6716A /* 11-isKindOfClass和isMemberOfClass */,
+				120C3D91253FC5B100CC22CD /* 12-Runtime应用01-查看私有成员变量.app */,
+				120C3E2F25400CB500CC22CD /* 13-Runtime应用02-字典转模型 */,
+				120C3E6925400E9B00CC22CD /* 14-Runtime应用03-方法交换.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -444,6 +590,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		120C3D90253FC5B100CC22CD /* 12-Runtime应用01-查看私有成员变量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120C3DBD253FC5B300CC22CD /* Build configuration list for PBXNativeTarget "12-Runtime应用01-查看私有成员变量" */;
+			buildPhases = (
+				120C3D8D253FC5B100CC22CD /* Sources */,
+				120C3D8E253FC5B100CC22CD /* Frameworks */,
+				120C3D8F253FC5B100CC22CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12-Runtime应用01-查看私有成员变量";
+			productName = "12-Runtime应用01-查看私有成员变量";
+			productReference = 120C3D91253FC5B100CC22CD /* 12-Runtime应用01-查看私有成员变量.app */;
+			productType = "com.apple.product-type.application";
+		};
+		120C3E2E25400CB500CC22CD /* 13-Runtime应用02-字典转模型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120C3E3525400CB500CC22CD /* Build configuration list for PBXNativeTarget "13-Runtime应用02-字典转模型" */;
+			buildPhases = (
+				120C3E2B25400CB500CC22CD /* Sources */,
+				120C3E2C25400CB500CC22CD /* Frameworks */,
+				120C3E2D25400CB500CC22CD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-Runtime应用02-字典转模型";
+			productName = "13-Runtime应用02-字典转模型";
+			productReference = 120C3E2F25400CB500CC22CD /* 13-Runtime应用02-字典转模型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		120C3E6825400E9B00CC22CD /* 14-Runtime应用03-方法交换 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 120C3E7F25400E9C00CC22CD /* Build configuration list for PBXNativeTarget "14-Runtime应用03-方法交换" */;
+			buildPhases = (
+				120C3E6525400E9B00CC22CD /* Sources */,
+				120C3E6625400E9B00CC22CD /* Frameworks */,
+				120C3E6725400E9B00CC22CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14-Runtime应用03-方法交换";
+			productName = "14-Runtime应用03-方法交换";
+			productReference = 120C3E6925400E9B00CC22CD /* 14-Runtime应用03-方法交换.app */;
+			productType = "com.apple.product-type.application";
+		};
 		124418E025217415006ABDB1 /* 07-消息转发 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 124418E725217415006ABDB1 /* Build configuration list for PBXNativeTarget "07-消息转发" */;
@@ -640,6 +837,15 @@
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = jingshonline;
 				TargetAttributes = {
+					120C3D90253FC5B100CC22CD = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					120C3E2E25400CB500CC22CD = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					120C3E6825400E9B00CC22CD = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
 					124418E025217415006ABDB1 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
@@ -699,11 +905,34 @@
 				124419332521E432006ABDB1 /* 09-super */,
 				124419572521EFA3006ABDB1 /* 10-消息转发实战 */,
 				12799C2F2538016200F6716A /* 11-isKindOfClass和isMemberOfClass */,
+				120C3D90253FC5B100CC22CD /* 12-Runtime应用01-查看私有成员变量 */,
+				120C3E2E25400CB500CC22CD /* 13-Runtime应用02-字典转模型 */,
+				120C3E6825400E9B00CC22CD /* 14-Runtime应用03-方法交换 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		120C3D8F253FC5B100CC22CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C3DA3253FC5B200CC22CD /* LaunchScreen.storyboard in Resources */,
+				120C3DA0253FC5B200CC22CD /* Assets.xcassets in Resources */,
+				120C3D9E253FC5B100CC22CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C3E6725400E9B00CC22CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C3E7B25400E9C00CC22CD /* LaunchScreen.storyboard in Resources */,
+				120C3E7825400E9C00CC22CD /* Assets.xcassets in Resources */,
+				120C3E7625400E9B00CC22CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		129CA3C024CE6823005CBEEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -717,6 +946,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		120C3D8D253FC5B100CC22CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C3DA6253FC5B200CC22CD /* main.m in Sources */,
+				120C3DE8253FC5E100CC22CD /* SceneDelegate.m in Sources */,
+				120C3DEA253FC5E100CC22CD /* ViewController.m in Sources */,
+				120C3DE9253FC5E100CC22CD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C3E2B25400CB500CC22CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C3E3225400CB500CC22CD /* main.m in Sources */,
+				120C3E5525400CD700CC22CD /* NSObject+Json.m in Sources */,
+				120C3E4525400CD200CC22CD /* MJPerson.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		120C3E6525400E9B00CC22CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120C3EA32540120600CC22CD /* NSMutableArray+Swizzing.m in Sources */,
+				120C3E7325400E9B00CC22CD /* ViewController.m in Sources */,
+				120C3E6D25400E9B00CC22CD /* AppDelegate.m in Sources */,
+				120C3E7E25400E9C00CC22CD /* main.m in Sources */,
+				120C3E9225400F6000CC22CD /* UIControl+Extension.m in Sources */,
+				120C3EB42540133E00CC22CD /* NSMutableDictionary+Swizzing.m in Sources */,
+				120C3E7025400E9B00CC22CD /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		124418DD25217415006ABDB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -825,6 +1089,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		120C3D9C253FC5B100CC22CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120C3D9D253FC5B100CC22CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		120C3DA1253FC5B200CC22CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120C3DA2253FC5B200CC22CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		120C3E7425400E9B00CC22CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120C3E7525400E9B00CC22CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		120C3E7925400E9C00CC22CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				120C3E7A25400E9C00CC22CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		129CA3F124CE6850005CBEEA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -844,6 +1140,108 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		120C3DBE253FC5B300CC22CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				INFOPLIST_FILE = "12-Runtime应用01-查看私有成员变量/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingshonline.-2-Runtime--01---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120C3DBF253FC5B300CC22CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				INFOPLIST_FILE = "12-Runtime应用01-查看私有成员变量/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingshonline.-2-Runtime--01---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		120C3E3325400CB500CC22CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		120C3E3425400CB500CC22CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		120C3E8025400E9C00CC22CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				INFOPLIST_FILE = "14-Runtime应用03-方法交换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingshonline.-4-Runtime--03-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		120C3E8125400E9C00CC22CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25ZE6TVB9T;
+				INFOPLIST_FILE = "14-Runtime应用03-方法交换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jingshonline.-4-Runtime--03-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		124418E525217415006ABDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1229,6 +1627,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		120C3DBD253FC5B300CC22CD /* Build configuration list for PBXNativeTarget "12-Runtime应用01-查看私有成员变量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120C3DBE253FC5B300CC22CD /* Debug */,
+				120C3DBF253FC5B300CC22CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120C3E3525400CB500CC22CD /* Build configuration list for PBXNativeTarget "13-Runtime应用02-字典转模型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120C3E3325400CB500CC22CD /* Debug */,
+				120C3E3425400CB500CC22CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		120C3E7F25400E9C00CC22CD /* Build configuration list for PBXNativeTarget "14-Runtime应用03-方法交换" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				120C3E8025400E9C00CC22CD /* Debug */,
+				120C3E8125400E9C00CC22CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		124418E725217415006ABDB1 /* Build configuration list for PBXNativeTarget "07-消息转发" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
