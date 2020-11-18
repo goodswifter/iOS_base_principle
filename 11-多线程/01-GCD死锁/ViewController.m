@@ -25,7 +25,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self test05];
+//    [self test03];
+    NSLog(@"1");
+    dispatch_queue_t queue = dispatch_queue_create("que", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_sync(queue, ^{
+        NSLog(@"2");
+        NSLog(@"%@", [NSThread currentThread]);
+        dispatch_sync(queue, ^{
+            NSLog(@"4");
+            NSLog(@"%@", [NSThread currentThread]);
+        });
+    });
+    NSLog(@"3");
 }
 
 // 不会
@@ -87,7 +98,7 @@
     NSLog(@"执行任务5");
 }
 
-/// 主队列 + 同步函数: 不会
+/// 主队列 + 异步函数: 不会
 - (void)test02 {
     NSLog(@"执行任务1");
     
