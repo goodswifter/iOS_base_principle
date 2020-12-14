@@ -18,17 +18,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    unsigned int count;
+    unsigned int count;
     // 找到对应的属性_placeholderLabel
-//    Ivar *ivars =  class_copyIvarList([UITextField class], &count);
-//    for (int i = 0; i < count; i++) {
-//        // 取出i位置的成员变量
-//        Ivar ivar = ivars[i];
-//        NSLog(@"%s - %s", ivar_getName(ivar), ivar_getTypeEncoding(ivar));
-//    }
-//
-//    // 释放变量
-//    free(ivars);
+    Ivar *ivars =  class_copyIvarList([UITextField class], &count);
+    for (int i = 0; i < count; i++) {
+        // 取出i位置的成员变量
+        Ivar ivar = ivars[i];
+        NSLog(@"%s - %s", ivar_getName(ivar), ivar_getTypeEncoding(ivar));
+    }
+    // 释放变量
+    free(ivars);
     
     // 查看属性的类型以及其父类的类型
     /*
