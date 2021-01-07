@@ -45,6 +45,7 @@
             NSLog(@"任务3-%@", [NSThread currentThread]);
         }
     });
+    // 回到主线程
     dispatch_group_notify(group, dispatch_get_main_queue(), ^{
         for (int i = 0; i < 5; i++) {
             NSLog(@"任务4-%@", [NSThread currentThread]);
