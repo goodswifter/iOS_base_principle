@@ -27,7 +27,7 @@
     
 //    [self test03];
     NSLog(@"1");
-    dispatch_queue_t queue = dispatch_queue_create("que", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_queue_t queue = dispatch_queue_create("queue", DISPATCH_QUEUE_CONCURRENT);
     dispatch_sync(queue, ^{
         NSLog(@"2");
         NSLog(@"%@", [NSThread currentThread]);
@@ -45,10 +45,10 @@
     
     dispatch_queue_t queue = dispatch_queue_create("myqueue", DISPATCH_QUEUE_CONCURRENT);
     
-    dispatch_async(queue, ^{ // 0
+    dispatch_async(queue, ^{ // block0
         NSLog(@"执行任务2");
         
-        dispatch_sync(queue, ^{ // 1
+        dispatch_sync(queue, ^{ // block1
             NSLog(@"执行任务3");
         });
         
@@ -62,9 +62,8 @@
 - (void)test04 {
     NSLog(@"执行任务1");
     
-    dispatch_queue_t queue = dispatch_queue_create("myqueu", DISPATCH_QUEUE_SERIAL);
-//    dispatch_queue_t queue2 = dispatch_queue_create("myqueue2", DISPATCH_QUEUE_CONCURRENT);
-    dispatch_queue_t queue2 = dispatch_queue_create("myqueu2", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue = dispatch_queue_create("myqueue", DISPATCH_QUEUE_SERIAL);
+    dispatch_queue_t queue2 = dispatch_queue_create("myqueue2", DISPATCH_QUEUE_SERIAL);
     
     dispatch_async(queue, ^{ // 0
         NSLog(@"执行任务2");

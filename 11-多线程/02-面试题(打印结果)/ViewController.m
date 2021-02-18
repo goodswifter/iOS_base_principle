@@ -16,7 +16,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-//    [self test2];
+    [self test2];
 }
 
 - (void)test2 {
@@ -30,8 +30,7 @@
         
         NSLog(@"3");
         
-        // 当前RunLoop只要有Source/定时器/Obeserver, 就会跑起来
-//        [[NSRunLoop currentRunLoop] addPort:[[NSPort alloc] init] forMode:NSDefaultRunLoopMode];
+        // 子线程需要主动开启, 才能运行
         [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
     });
 }
@@ -39,17 +38,18 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     NSThread *thread = [[NSThread alloc] initWithBlock:^{
         NSLog(@"1");
+        NSLog(@"%@", [NSThread currentThread]);
         
         // 让线程保活
-        [[NSRunLoop currentRunLoop] addPort:[[NSPort alloc] init] forMode:NSDefaultRunLoopMode];
-        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+//        [[NSRunLoop currentRunLoop] addPort:[[NSPort alloc] init] forMode:NSDefaultRunLoopMode];
+//        [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
     }];
     [thread start];
     
     // 一运行完成Block, 线程就死掉了
     // target thread exited while waiting for the perform
     // waitUntilDone: 是否阻塞当前线程
-    [self performSelector:@selector(test) onThread:thread withObject:nil waitUntilDone:YES];
+    [self performSelector:@selector(test) onThread:thread withObject:nil waitUntilDone:NO];
     
     NSLog(@"3");
 }
