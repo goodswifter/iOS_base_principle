@@ -66,12 +66,13 @@
 //    pthread_mutex_init(mutex, NULL);
 }
 
-/// 死锁：永远拿不到锁
 - (void)__saleTicket {
+    // 4. 加锁
     pthread_mutex_lock(&_ticketMutex);
     
     [super __saleTicket];
     
+    // 5. 解锁
     pthread_mutex_unlock(&_ticketMutex);
 }
 

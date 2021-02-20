@@ -40,4 +40,5 @@
         [super __saleTicket];
     });
 }
+
 @end

@@ -30,6 +30,7 @@ API_AVAILABLE(ios(10.0))
     return self;
 }
 
+/// 如果忘记解锁就会造成死锁：锁永远解不开
 - (void)__drawMoney {
     // 加锁
     os_unfair_lock_lock(&_moneyLock);

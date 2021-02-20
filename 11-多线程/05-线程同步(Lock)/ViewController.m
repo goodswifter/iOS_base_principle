@@ -29,8 +29,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    ADBaseDemo *baseDemo = [[MutexDemo02 alloc] init];
-    [baseDemo otherTest];
+    ADBaseDemo *baseDemo = [[MutexDemo03 alloc] init];
+    for (int i = 0; i < 5; i++) {
+        [baseDemo otherTest];
+    }
 //    [baseDemo ticketTest];
 //    [baseDemo moneyTest];
 }

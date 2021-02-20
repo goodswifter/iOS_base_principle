@@ -59,20 +59,22 @@
     pthread_mutexattr_destroy(&attr);
 }
 
+// 递归
 - (void)otherTest {
-    // 递归
-//    pthread_mutex_lock(&_mutex);
-//
-//    NSLog(@"%s", __func__);
-//
-//    static int count = 0;
-//    if (count++ < 10) {
-//        [self otherTest];
-//    }
-//
-//    pthread_mutex_unlock(&_mutex);
-    
-    // 对一把锁重复加锁
+    pthread_mutex_lock(&_mutex);
+
+    NSLog(@"%s", __func__);
+
+    static int count = 0;
+    if (count++ < 10) {
+        [self otherTest];
+    }
+
+    pthread_mutex_unlock(&_mutex);
+}
+
+// 对一把锁重复加锁
+- (void)otherTest2 {
     pthread_mutex_lock(&_mutex);
     
     [super moneyTest];

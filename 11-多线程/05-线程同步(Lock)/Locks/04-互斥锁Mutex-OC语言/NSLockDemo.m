@@ -30,7 +30,6 @@
 }
 
 #pragma mark - Private Function
-/// 死锁：永远拿不到锁
 - (void)__saleTicket {
     [self.ticketLock lock];
     

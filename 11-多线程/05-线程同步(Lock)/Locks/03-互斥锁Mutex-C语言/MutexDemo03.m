@@ -49,18 +49,25 @@
     
     // 方式一
     // 1. 初始化属性
-    pthread_mutexattr_t attr;
-    pthread_mutexattr_init(&attr);
-    // 设置Mutex类型
-    pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_DEFAULT);
+//    pthread_mutexattr_t attr;
+//    pthread_mutexattr_init(&attr);
+//    // 设置Mutex类型
+//    pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_DEFAULT);
+//
+//    // 2. 初始化锁
+//    pthread_mutex_init(mutex, &attr);
+//
+//    // 3. 销毁属性
+//    pthread_mutexattr_destroy(&attr);
+//
+//    // 4. 初始化条件
+//    pthread_cond_init(&_cond, NULL);
     
-    // 2. 初始化锁
-    pthread_mutex_init(mutex, &attr);
+    // 方式二
+    // 1. 初始化锁
+    pthread_mutex_init(&_mutex, NULL);
     
-    // 3. 销毁属性
-    pthread_mutexattr_destroy(&attr);
-
-    // 4. 初始化条件
+    // 2. 初始化条件
     pthread_cond_init(&_cond, NULL);
 }
 
@@ -84,7 +91,7 @@
         // 1. 解锁
         // 2. 让当前线程休眠
         // 3. 接收到信号, 唤醒线程, 等到锁被解开之后, 加锁
-        // 注意 : 不是说一接收到信号, 就加锁, 因为锁可能还没有解开
+        // 注意: 不是说一接收到信号, 就加锁, 因为锁可能还没有解开
         pthread_cond_wait(&_cond, &_mutex);
     }
     
